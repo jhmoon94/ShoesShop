@@ -1,0 +1,35 @@
+$메인컬러 : #ff0000;
+
+.red {
+    color: $메인컬러
+}
+
+// div.container h4 {
+//     color: blue;
+// }
+
+// div.container p {
+//     color: green;
+// }
+//밑의 방법으로 하는 것을 추천한다
+
+div.container {
+    h4{
+        color: rgb(132, 0, 255);
+    }
+    p {
+        color: green;
+    }
+}
+
+.my-alert {
+    background: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+    p {
+        padding-bottom: 0;
+    }
+}

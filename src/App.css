@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+.background {
+  background-image: url('https://online.codingapple.com/wp-content/uploads/2020/05/background.jpg');
+  background-size: cover;
+  color: white;
+}

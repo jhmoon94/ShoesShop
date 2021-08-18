@@ -3,7 +3,7 @@ import {Navbar, Container, Nav, NavDropdown , Row, Col} from 'react-bootstrap';
 function ShoesItem (props) {
   return (
         <Col md={ 4 }>
-          <img src={ `https://codingapple1.github.io/shop/shoes${props.i + 1}.jpg` } width="100%" />
+          <img src={ `https://jhmoon94.github.io/shop/shoes${props.shoes.id + 1}.jpg` } width="100%" />
           <h4>{ props.shoes.title }</h4>
           <p>{ props.shoes.content} & {props.shoes.price }</p>
         </Col>

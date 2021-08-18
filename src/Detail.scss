@@ -23,13 +23,24 @@ div.container {
 }
 
 .my-alert {
-    background: #eeeeee;
+    background-color: #ffe591;
     padding: 20px;
     border-radius: 5px;
     margin: auto;
     max-width: 700px;
     width: 100%;
     p {
-        padding-bottom: 0;
+        margin-bottom: 0;
     }
+}
+
+.my-alert2 {
+    @extend .my-alert;
+    background: #eeeeee;
+}
+
+.my-alert3 {
+    @extend .my-alert;
+    background: #ffe591;
+    max-width: 100%;
 }

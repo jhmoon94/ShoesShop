@@ -49,3 +49,6 @@
   background-size: cover;
   color: white;
 }
+
+a { text-decoration:none !important }
+a:hover { text-decoration:none !important }
